@@ -7,11 +7,11 @@ Ensure that MySQL and Apache are running in the XAMPP Control Panel
 First, you create your database via PHP Admin, then set up your tables, including their structures. Verify it through XAMPP through the shell terminal. 
 
 VERIFICATION THROUGH SHELL
-mysql -u root
-SHOW DATABASES;
-USE (database name);
-SHOW TABLES;
-DESCRIBE (table name);
+- mysql -u root
+- SHOW DATABASES;
+- USE (database name);
+- SHOW TABLES;
+- DESCRIBE (table name);
 
 Then we initialize our project structures, create controllers, routes, configs, server, and env file. 
 
