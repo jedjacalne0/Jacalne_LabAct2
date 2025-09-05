@@ -16,9 +16,9 @@ VERIFICATION THROUGH SHELL
 Then we initialize our project structures, create controllers, routes, configs, server, and env file. 
 
 PROJECT INITIALIZATION VIA TERMINAL IN VSCODE
-npm init -y
-npm install express mysql2 dotenv
-npm install -D nodemon
+- npm init -y
+- npm install express mysql2 dotenv
+- npm install -D nodemon
 
 After creating the project structures, first configure our env file.
 Then we establish our database connection to MySQL.
@@ -29,22 +29,22 @@ We will install and enable CORS (Cross-Origin Resource Sharing). This is crucial
 First, we install CORS
 
 VIA TERMINAL IN VSCODE
-npm install cors
+- npm install cors
 
 Then we create our controller logic.
 Then define our routes.
 Then, mount the routes and enable CORS in our server.
 
-TESTING
+# TESTING
 We can test the project via Postman.
 
 Open Postman, then create an environment. Add a variable with its values being the URL of the port project (eg, http//localhost:3306/api). Save the environment and select it also from the dropdown (top-right corner).
 Now test the health endpoint by creating a new tab and changing the method to GET. Add the endpoint URL (eg, http//localhost:3306/api). Go to the Headers tab, add a key value as "a Content-Type", then for the value cell add "application/json". click send then expect the response to be {"status": "ok", "db": "connected", "time":"..."}
 Then, perform the CRUD Cycle:
-POST/POST BY ID
-GET/GET BY ID
-PUT
-DELETE/DELETE BY ID
+- POST/POST BY ID
+- GET/GET BY ID
+- PUT
+- DELETE/DELETE BY ID
 
 
 
