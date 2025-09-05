@@ -2,7 +2,7 @@
 
 This project is about the usage of Express.js connecting to a MySQL database. This project explores creating databases with aligned project structures and setting up routes, servers, and controllers for a fully functional database. 
 
-# STEP BY STEP PROCEDURE
+# Step By Step Procedure
 Ensure that MySQL and Apache are running in the XAMPP Control Panel
 First, you create your database via PHP Admin, then set up your tables, including their structures. Verify it through XAMPP through the shell terminal. 
 
